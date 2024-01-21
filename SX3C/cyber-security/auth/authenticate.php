@@ -19,7 +19,7 @@
 			$_SESSION['bank_user_id'] = $row['id'];
 			$_SESSION['fullName'] = $row['full_name'];
 			$_SESSION['role'] = $row['role'];
-			header('location: /cyber-security/learning-portal/client/index.php');
+			header('location: /SX3C/cyber-security/learning-portal/client/index.php');
 		}else{echo "Password Didn't Match!";}
 	}else{echo "User Not Found";}
 
